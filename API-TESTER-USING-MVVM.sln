@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-TESTER-USING-MVVM", "API-TESTER-USING-MVVM\API-TESTER-USING-MVVM.csproj", "{FAD1DD01-405E-4786-A909-032CED759717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD1DD01-405E-4786-A909-032CED759717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD1DD01-405E-4786-A909-032CED759717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD1DD01-405E-4786-A909-032CED759717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD1DD01-405E-4786-A909-032CED759717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67C0C083-F7CA-40F9-B8FF-019471F0C27D}
+	EndGlobalSection
+EndGlobal
