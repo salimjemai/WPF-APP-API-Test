@@ -145,7 +145,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Localization\" />
+  </ItemGroup>
   <ItemGroup>
     <Page Include="Views\ShellView.xaml">
       <SubType>Designer</SubType>
