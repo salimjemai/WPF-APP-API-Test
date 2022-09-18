@@ -2,7 +2,7 @@
 
 namespace API_TESTER_USING_MVVM.Models
 {
-    public interface ISessionModel
+    public interface ILoginModel
     {
         string CwsUrl { get; set; }
 

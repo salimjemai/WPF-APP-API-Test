@@ -5,14 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:API_TESTER_USING_MVVM.Views"
         mc:Ignorable="d"
-        Background="AliceBlue"
         Title="ShellView"
         Height="450"
         Width="800"
         WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Background="Transparent"
         FontSize="20">
-  <Grid HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="0 0 0 30">
+  <Grid>
 
+    <!--// Window border-->
+    <Border Background="Lavender" CornerRadius="20"/>
+    
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="20" />
       <ColumnDefinition Width="Auto" />
@@ -32,15 +37,15 @@
       <RowDefinition Height="*" />
       <RowDefinition Height="20" />
     </Grid.RowDefinitions>
-    <TextBlock Grid.Column="1"
+    <!--<TextBlock Grid.Column="1"
                Grid.Row="1"
                FontSize="32"
-               Text="Login To CORRIDOR API"
+               Text="CORRIDOR API Login"
                HorizontalAlignment="Center"
                Grid.ColumnSpan="3"
                Margin="10 10 10 50" />
     
-    <!--Schema alias name box-->
+    --><!--Schema alias name box--><!--
     <TextBlock Grid.Column="1"
                Grid.Row="2"
                Text="Schema Alias Name"
@@ -54,7 +59,7 @@
              Width="275"
              Margin="10,0,0,15" />
     
-    <!--user name box-->
+    --><!--user name box--><!--
     <TextBlock Grid.Column="1"
                Grid.Row="3"
                Text="User Name"
@@ -67,7 +72,7 @@
              Width="275"
              Margin="10,0,0,15" />
     
-    <!-- Password block -->
+    --><!-- Password block --><!--
     <TextBlock Grid.Column="1"
                Grid.Row="4"
                Text="Password"
@@ -81,7 +86,7 @@
                  Width="275"
                  Margin="10,0,0,15" />
     
-    <!-- CWS URL block -->
+    --><!-- CWS URL block --><!--
     <TextBlock Grid.Column="1"
                Grid.Row="5"
                Text="CWS URL"
@@ -94,7 +99,7 @@
              Width="275"
              Margin="10,0,0,15" />
     
-    <!--Login button-->
+    --><!--Login button--><!--
     <Button x:Name="loginButton"
             Grid.Column="1"
             Grid.Row="6"
@@ -102,7 +107,7 @@
             Width="60"
             Margin="0 20 0 0"
             Click="loginButton_Click" />
-    <!--Logout button-->
+    --><!--Logout button--><!--
     <Button x:Name="logoutButton"
             Grid.Column="2"
             Grid.Row="6"
@@ -110,7 +115,7 @@
             Width="60"
             Margin="0 20 200 0"
             Click="logoutButton_Click" />
-    <!-- Cancel Button block -->
+    --><!-- Cancel Button block --><!--
     <Button x:Name="clearButton"
             Grid.Column="2"
             Grid.Row="6"
@@ -118,14 +123,13 @@
             Width="60"
             Margin="0 20 15 0"
             Click="clearButton_Click" />
-    <!-- Cancel Button block -->
+    --><!-- Cancel Button block --><!--
     <Button x:Name="cancelButton"
             Grid.Column="2"
             Grid.Row="6"
             Content="Cancel"
             Width="60"
             Margin="180 20 0 0"
-            Click="cancelButton_Click" />
-  <!-- Login Button block -->
+            Click="cancelButton_Click" />-->
   </Grid>
 </Window>

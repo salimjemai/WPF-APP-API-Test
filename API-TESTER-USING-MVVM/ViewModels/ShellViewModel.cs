@@ -6,10 +6,10 @@ namespace API_TESTER_USING_MVVM.ViewModels
 {
     public class ShellViewModel : Screen
     {
-        private ISessionModel _sessionModel; 
+        private ILoginModel _sessionModel; 
         private IUserModel _userModel;
 
-        public ShellViewModel(ISessionModel sessionModel, IUserModel userModel)
+        public ShellViewModel(ILoginModel sessionModel, IUserModel userModel)
         {
             _sessionModel = sessionModel;
             _userModel = userModel;

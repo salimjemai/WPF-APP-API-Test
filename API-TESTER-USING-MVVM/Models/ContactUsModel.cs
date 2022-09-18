@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace API_TESTER_USING_MVVM.Models
+{
+    public class ContactUsModel
+    {
+        public string EmailAddress { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Fax { get; set; }
+        public string EmailBody { get; set; }
+    }
+}

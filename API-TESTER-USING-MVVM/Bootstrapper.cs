@@ -29,7 +29,7 @@ namespace API_TESTER_USING_MVVM
                 .Singleton<IEventAggregator, EventAggregator>();
 
             // one instance per request
-            _container.PerRequest<ISessionModel, SessionModel>();
+            _container.PerRequest<ILoginModel, LoginModel>();
             _container.PerRequest<IUserModel, UserModel>();
 
             // This is grabbing all the View Models and register them 

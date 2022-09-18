@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:API_TESTER_USING_MVVM.ViewModels"
+                    xmlns:view="clr-namespace:API_TESTER_USING_MVVM.Views">
+
+  <!--Menu--> 
+  <DataTemplate DataType="{x:Type vm:LoginViewModel}">
+    <view:Login />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+    <view:Home />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:AboutViewModel}">
+    <view:About />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:ContactUsViewModel}">
+    <view:ContactUs />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:DocumentationViewModel}">
+    <view:Documentation />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:SettingsViewModel}">
+    <view:Settings />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:TestApiViewModel}">
+    <view:TestApi />
+  </DataTemplate>
+  
+  <!--APIs to test-->
+  <DataTemplate DataType="{x:Type vm:CompanyDatabaseViewModel}">
+    <view:CompanyDatabase />
+  </DataTemplate>
+  
+  <DataTemplate DataType="{x:Type vm:UserManagementViewModel}">
+    <view:UserManagement />
+  </DataTemplate>
+
+</ResourceDictionary>

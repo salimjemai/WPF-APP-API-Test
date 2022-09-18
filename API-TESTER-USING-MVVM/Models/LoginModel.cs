@@ -2,7 +2,7 @@
 
 namespace API_TESTER_USING_MVVM.Models
 {
-    public class SessionModel : ISessionModel
+    public class LoginModel : ILoginModel
     {
         public string SchemaAlias { get; set; }
 
